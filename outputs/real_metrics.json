@@ -1,0 +1,12 @@
+{
+  "customers": 3986,
+  "churn_rate_recency90": 0.3475,
+  "avg_monetary": 317.11,
+  "high_value_revenue_share": 0.7385,
+  "telco_churn_rate": 0.2654,
+  "telco_churn_by_contract": {
+    "Month-to-month": 0.4271,
+    "One year": 0.1127,
+    "Two year": 0.0283
+  }
+}

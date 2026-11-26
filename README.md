@@ -90,3 +90,10 @@ ecom-churn/
 2. **随机切分而非时间外验证**：真实项目应按月切（8 月训练、9 月上线、10 月回看），否则会低估线上衰减。
 3. **只建了流失概率，没建 UPLIFT**：给谁发券取决于「被券改变行为」的概率，不是「会流失」的概率。
 4. **没有分数稳定性监控**：上线后要盯 PSI，特征漂移会让模型悄悄失效。
+
+## 真实公开数据集
+
+本仓库在 `data/real/` 附带**真实公开数据集**（来源、许可与字段说明见 `data/real/SOURCES.md`）。
+运行 `python src/real_data_analysis.py` 可基于真实数据复现统计概览，输出到 `outputs/real_metrics.json` 与 `reports/real-data-notes.md`。
+
+> 说明：`data/`、`outputs/metrics.json` 中的主结果是脱敏/仿真案例，用于稳定演示方法论；`data/real/` 使用公开真实数据集验证同一套方法在真实数据上可运行。

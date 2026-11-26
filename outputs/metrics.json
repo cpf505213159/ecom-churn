@@ -1,0 +1,15 @@
+{
+  "n_users": 120000,
+  "churn_rate": 0.13391666666666666,
+  "auc_clean": 0.7742875765901057,
+  "ks_clean": 0.4129653830166712,
+  "auc_with_leak": 0.8101495431043995,
+  "leak_inflation": 0.03586196651429374,
+  "capacity_frac": 0.067,
+  "capacity_recall": 0.21968736797634136,
+  "capacity_lift": 3.278915939945393,
+  "f1_optimal_frac": 0.23608333333333334,
+  "cost_full": 4200000.0,
+  "cost_model": 281400.0,
+  "cost_reduction": -0.933
+}

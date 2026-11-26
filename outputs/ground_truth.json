@@ -1,0 +1,9 @@
+{
+  "seed": 20240915,
+  "n_users": 120000,
+  "churn_rate": 0.13391666666666666,
+  "coupon_retention_factor": 0.3,
+  "intercept": -2.05,
+  "slope": 1.45,
+  "note": "churn 由不可观测因子 f 决定，特征是 f 的噪声代理；coupon_* 为泄漏特征"
+}
